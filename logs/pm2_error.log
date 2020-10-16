@@ -1,0 +1,71 @@
+[32minfo[0m [0m[35mlogin[0m Logged in as 100050794989101
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: PRN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[31m[40mERR![0m [0m[35mgetUserInfo[0m { error: 'Not logged in.' }
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[31m[40mERR![0m [0m[35mlistenMqtt[0m Error: Connection refused: Server unavailable
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at MqttClient._handleConnack (C:\Users\Administrator\Desktop\mirai-beta\node_modules\mqtt\lib\client.js:1076:15)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at MqttClient._handlePacket (C:\Users\Administrator\Desktop\mirai-beta\node_modules\mqtt\lib\client.js:365:12)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at work (C:\Users\Administrator\Desktop\mirai-beta\node_modules\mqtt\lib\client.js:283:12)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Writable.writable._write (C:\Users\Administrator\Desktop\mirai-beta\node_modules\mqtt\lib\client.js:294:5)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at doWrite (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at writeOrBuffer (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Writable.write (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Duplexify.ondata (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:619:20)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Duplexify.emit (events.js:314:20)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at addChunk (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at readableAddChunk (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Duplexify.Readable.push (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Duplexify._forward (C:\Users\Administrator\Desktop\mirai-beta\node_modules\duplexify\index.js:170:26)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Transform.onreadable (C:\Users\Administrator\Desktop\mirai-beta\node_modules\duplexify\index.js:134:10)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Transform.emit (events.js:314:20)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at emitReadable_ (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at emitReadable (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at addChunk (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at readableAddChunk (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Transform.Readable.push (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Transform.push (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_transform.js:148:32)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at WebSocket.onmessage (C:\Users\Administrator\Desktop\mirai-beta\node_modules\websocket-stream\stream.js:167:11)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at WebSocket.onMessage (C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\EventTarget.js:99:16)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at WebSocket.emit (events.js:314:20)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Receiver._receiver.onmessage (C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\WebSocket.js:141:47)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Receiver.dataMessage (C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\Receiver.js:380:14)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\Receiver.js:349:40
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\PerMessageDeflate.js:306:9
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m  Error: Connection refused: Server unavailable
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at MqttClient._handleConnack (C:\Users\Administrator\Desktop\mirai-beta\node_modules\mqtt\lib\client.js:1076:15)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at MqttClient._handlePacket (C:\Users\Administrator\Desktop\mirai-beta\node_modules\mqtt\lib\client.js:365:12)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at work (C:\Users\Administrator\Desktop\mirai-beta\node_modules\mqtt\lib\client.js:283:12)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Writable.writable._write (C:\Users\Administrator\Desktop\mirai-beta\node_modules\mqtt\lib\client.js:294:5)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at doWrite (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at writeOrBuffer (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Writable.write (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Duplexify.ondata (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:619:20)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Duplexify.emit (events.js:314:20)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at addChunk (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at readableAddChunk (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Duplexify.Readable.push (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Duplexify._forward (C:\Users\Administrator\Desktop\mirai-beta\node_modules\duplexify\index.js:170:26)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Transform.onreadable (C:\Users\Administrator\Desktop\mirai-beta\node_modules\duplexify\index.js:134:10)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Transform.emit (events.js:314:20)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at emitReadable_ (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at emitReadable (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at addChunk (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at readableAddChunk (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Transform.Readable.push (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Transform.push (C:\Users\Administrator\Desktop\mirai-beta\node_modules\readable-stream\lib\_stream_transform.js:148:32)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at WebSocket.onmessage (C:\Users\Administrator\Desktop\mirai-beta\node_modules\websocket-stream\stream.js:167:11)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at WebSocket.onMessage (C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\EventTarget.js:99:16)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at WebSocket.emit (events.js:314:20)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Receiver._receiver.onmessage (C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\WebSocket.js:141:47)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at Receiver.dataMessage (C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\Receiver.js:380:14)
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\Receiver.js:349:40
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m     at C:\Users\Administrator\Desktop\mirai-beta\node_modules\ws\lib\PerMessageDeflate.js:306:9 {
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m   code: 3
+[0m[31m[40mERR![0m [0m[35mlistenMqtt[0m }
+[0m[31m[40mERR![0m [0m[35mgetSeqId[0m { error: 'Not logged in.' }
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 100050794989101
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: PRN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m
